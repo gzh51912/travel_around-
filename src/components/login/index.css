@@ -1,0 +1,86 @@
+.login {
+  background: #fff;
+}
+
+.login .login_top {
+  height: 874px;
+  padding-top: 17px;
+  margin: 0px 55px 0 55px;
+}
+
+.login .login_top .top i {
+  width: 171px;
+  height: 171px;
+  margin: auto;
+  display: block;
+  background-image: url(../../img/titleicon.fdcacde.png);
+  background-size: 171px 171px;
+}
+
+.login .login_top .top span {
+  display: block;
+  width: 100%;
+  height: 50px;
+  font-size: 35px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  line-height: 50px;
+}
+
+.login .login_top .matter input {
+  width: 100%;
+  height: 96px;
+  padding: 26px 26px;
+  margin-top: 40px;
+  font-size: 28px;
+  color: #333333;
+  background-color: #FBFBFB;
+}
+
+.login .login_top .stroke {
+  margin-top: 40px;
+  width: 100%;
+  height: 97px;
+  text-align: center;
+  line-height: 97px;
+  color: #000;
+  font-size: 30px;
+  background: linear-gradient(135deg, #ffed5c, #ffce06);
+}
+
+.login .login_top .changeLoginWay {
+  margin-top: 26.4px;
+  height: 42px;
+  font-size: 25px;
+  padding: 0px 28px;
+  color: #aeaeae;
+}
+
+.login .login_top .changeLoginWay p {
+  float: left;
+}
+
+.login .login_top .changeLoginWay span {
+  float: right;
+}
+
+.login .login_bottom {
+  height: 457px;
+  margin: 0px 55px 0 55px;
+  padding-top: 110px;
+}
+
+.login .login_bottom .bottomBefore {
+  height: 110px;
+  padding: 0 156px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.login .login_bottom .bottomBefore img {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  margin: 20px;
+}

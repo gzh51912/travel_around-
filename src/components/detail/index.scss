@@ -1,0 +1,190 @@
+.detail{
+    
+    .detail_top{
+        position: relative;
+        .detail_top_banner{
+            width: 750px;
+            height: 422px;
+            img{
+                width: 750px;
+                height: 422px;
+            }
+        }
+        .detail_top_nav{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 750px;
+            height: 100px;
+            padding: 37px 20px 0;
+            .d_t_back{
+                float: left;
+                width: 56px;
+                height: 56px;
+                background: url(../../img/d_t_back.png);
+            }
+            .d_t_name{
+                float: right;
+                width: 56px;
+                height: 56px;
+                background: url(../../img/d_t_name.png);
+            }
+        }
+        
+    }
+    .detail_price__box{
+        padding: 0 30px ;
+        width: 750px;
+        height: 80px;
+   
+        line-height: 80px;
+        font-size: 24px;
+        b{
+            font-size: 44px;
+            margin: 0 5px;
+            color: #ff7100;
+            font-weight: 600px;
+        }
+        i{
+            color: #999;
+        }
+        em{
+            color: #ff7100;
+        }
+        a{
+            width: 144px;
+            height: 32px;
+            font-size: 24px;
+            color:#ff7100;
+            background: #fff1e5;
+            border-radius: 15px;
+            margin-left: 40px;
+        }
+    }
+    .mLine__title{
+        background: #fff;
+        width: 750px;
+        height: 340px;
+        padding: 5px 30px 18px 30px;
+        position: relative;
+        .title__pname{
+            height: 155px;
+            font-size: 32px ;
+            color: #333;
+            font-weight: 700;
+            span{
+                width: 68px ;
+                height: 36px;
+                font-size: 24px;
+                line-height: 36px;
+                display: inline-block;
+                padding: 0 10px ;
+                background: linear-gradient(90deg,#ffed5c,#ffce06);
+            }
+        }
+        .title__sname{
+            height: 72px;
+            margin: 20px 0 25px;
+            color: #666;
+            font-size: 24px;
+        }
+        .title__liangdian{
+            margin-bottom: 5px;
+            height: 50px;
+            span{
+                height: 20px;
+                color: #666;
+                font-size: 24px;
+                padding: 0px 10px ;
+                margin: 0px 10px 10px 0px ;
+                border: 1px dashed #efa93b
+            }
+        }
+        .title__liangdian::after{
+            content: "";
+            width:690px;
+            height: 1px;
+            background: #999;
+            position: absolute;
+            bottom: 5px;
+            left: 30px;
+        }
+    }
+    .mLine__location{
+        background: #fff;
+        position: relative;
+        height: 70px;
+        font-size: 24px;
+        color: #666;
+        em{
+            position: absolute;
+            top: 27px;
+            left : 36px;
+            width: 21px;
+            height: 24px;
+            background:url(../../img/detail_map.png);
+        }
+        span{
+            position: absolute;
+            top: 23px;
+            left: 90px;
+        }
+        i{
+            position: absolute;
+            top: 23px;
+            right: 40px;
+        }
+    }
+    
+   
+}
+.mLineBuy{
+    width: 750px;
+    height: 120px;
+    position: relative;
+    bottom: -300px;
+    left: 0px;
+    .line__bottom__service{
+        width: 130px;
+        height: 120px;
+        float: left;
+        text-align: center;
+        img{
+            width: 44px;
+            height: 44px;
+            margin: 20px 0 10px;
+        }
+        p{
+            color: #333;
+            font-size: 24px;
+        }
+    }
+    .line__bottom__favorite{
+        width: 116px;
+        height: 120px;
+        float: left;
+        text-align: center;
+        img{
+            width: 44px;
+            height: 44px;
+            margin: 20px 0 10px;
+        }
+        p{
+            color: #333;
+            font-size: 24px;
+        }
+    }
+    .line__bottom__btn{
+        width: 480px ;
+        height: 88px;
+        text-align: center;
+        line-height: 88px;
+        border-radius: 44px;
+        font-size: 36px;
+        font-weight: 500;
+        color : #fff;
+        float: left;
+        background: linear-gradient(-30deg,#ff5400,#ff8400)
+        
+    }
+}

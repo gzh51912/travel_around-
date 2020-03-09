@@ -1,0 +1,126 @@
+.cart{
+    
+    .cart_top{
+        position: relative;
+        width: 750px;
+        height: 92px;
+        color: #000;
+        font-size: 32px;
+        font-weight: 600;
+        background: #f7f7f7;
+        text-align: center;
+        line-height: 92px;
+        .c_t_back{
+            position: absolute;
+            top: 40px ;
+            left: 25px;
+            width: 30px;
+            height: 33px;
+            background: url(../../img/left.png) no-repeat;
+        }
+        .c_t_user{
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            width: 44px;
+            height: 48px;
+            background: url('../../img/cart_user.png') no-repeat;
+        }
+    }
+    .cart_list{
+        border-top: 2px solid #bbb;
+        padding-bottom: 100px;
+        .cart_list_item{
+            width: 750px;
+            height: 220px;
+            padding: 20px 0 ;
+            margin-bottom: 20px;
+            background: #fff;
+            .c_i_select{
+                float: left;
+                width: 40px;
+                height: 182px;
+                margin:0  20px;
+                padding: 70px 0 ;
+                .select{
+                    width: 40px;
+                    height: 40px;
+                    background: url('../../img/c_yuan.png') ;
+                }
+            }
+            .item_container{
+                float: left;
+                width: 590px;
+                height: 100%;
+                background: #fff;
+                padding-left: 40px;
+                .item_nsme{
+                    height: 52px;
+                    padding-top: 10px;
+                    color: #444;
+                    font-size: 32px;
+                    overflow: hidden;
+                }
+                .today{
+                    height: 43px;
+                    font-size: 28px ;
+                    color: #999;
+                    padding : 5px  0 0 ;
+                }
+                .item_box{
+                    
+                    height: 70px;
+                    .price{
+                        float: left;
+                        font-size: 30px;
+                        color: #ff5f00;
+                        height: 20px;
+                        width: 100px;
+                        margin-top: 35px;
+                    }
+                    .list_button{
+                        float: right;
+                        width: 260px;
+                        height: 45px;
+                        
+                        margin-top: 20px;
+                        .button_item{
+                            width: 80px;
+                            height: 44px;
+                            font-size: 36px;
+                            text-align: center;
+                            line-height: 40px;
+                            color: #999;
+                            border: 1px solid #666;
+                            float: left;
+                        }
+                        .count{
+                            border: none;
+                        }
+                    }
+                }
+            }
+
+            .c_i_remove{
+                float: right;
+                width: 40px;
+                height: 182px;
+                margin:0  20px;
+                padding: 70px 0 ;
+                .remove{
+                    width: 40px;
+                    height: 40px;
+                    text-align: center;
+                    line-height: 35px;
+                    color:#fff;
+                    font-size: 30px;
+                    background: red;
+                    border: 1px solid red;
+                    border-radius: 20px;
+                }
+            }
+            
+        }
+        
+    }
+}

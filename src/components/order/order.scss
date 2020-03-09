@@ -1,0 +1,50 @@
+.order{
+    
+    .order_top{
+        width: 750px;
+        height: 90px;
+        text-align: center;
+        line-height: 90px;
+        font-size: 32px;
+        background: #f7f7f7;
+        .top_back{
+            width: 20px;
+            height: 40px;
+            position: absolute;
+            top:33px;
+            left: 50px;
+            background: url('../../img/left.png') no-repeat ;
+        }
+       
+    }
+    .order-nav{
+        width: 750px; 
+        height: 88px; 
+        display: flex;
+        justify-content: space-around;
+        line-height: 88px;
+        padding: 0 30px;
+        font-size: 28px;
+        color: #000;
+        p{
+            position: relative;
+            .order_symbol{
+                
+                width: 72px;
+                height: 12px;
+                border-radius: 6px;
+                background: #fed101;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-left: -36px;
+                margin-top: 10px;
+            }
+        }
+        .order_active{
+            font-weight: 700;
+            font-size: 32px;
+        }
+    }
+    
+}
